@@ -17,11 +17,11 @@ Employee layoffs: The primary data used for this analysis is the layoffs.data_cs
 
 ### Data cleaning
 The following task were carried out in the data preparation phase:
-- Creating schema and loading csv file
-- Removing duplicates
-- Standardizing the data,
-- Reviewing nulls and blanks
-- Removing columns from the duplicate dataset
+- Created schema and loading csv file
+- Removed duplicates
+- Standardized the data
+- Reviewied nulls and blanks
+- Removed columns from the duplicate dataset
 
   ### Codes worked with
   ---
