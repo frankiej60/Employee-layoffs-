@@ -2,6 +2,8 @@
 
 ### Project overview
 
+---
+
 The data cleaning project aims to make the raw data more useful when analysed and visualized. 
 
 
