@@ -178,7 +178,7 @@ from layoffs_stages2
 where company like 'bally%';
 
 
-# Remove columns 
+#Remove columns 
 
 select * from layoffs_stages2;
 
