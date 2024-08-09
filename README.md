@@ -1,6 +1,6 @@
 # Data cleaning in MYSQL
 
-### Project overview
+### Project brief
 
 ---
 
