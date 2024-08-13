@@ -9,11 +9,11 @@ The data cleaning project aims to make the raw data more useful when analysed an
 
 ### Data source 
 ---
-Employee layoffs: The primary data used for this analysis is the layoffs.data_csv file, containing detailed information about layoffs made by companies. 
+Employee layoffs: The primary data used for this preprocessig is the layoffs.data_csv file, containing detailed information about layoffs made by companies in the world. 
 
 ### Tools
 ---
-- MYSQL data cleaning and analysis
+- MYSQL data cleaning software
     - [Download here](https://MYSQL.com)
 
 
@@ -26,7 +26,7 @@ The following task were carried out in the data preparation phase:
 - Reviewed nulls and blanks
 - Removed columns from the duplicate dataset
 
-### Codes worked with
+### Queries worked with
   ---
     SQL
   
