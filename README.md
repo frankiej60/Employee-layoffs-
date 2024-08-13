@@ -41,6 +41,7 @@ insert layoffs_stages
 select * 
 from layoffs;
 
+
 #Removing duplicates
 
 select *,
@@ -99,6 +100,7 @@ where row_numz >1;
 select * 
 from layoffs_stages2;
 
+
 #Standardizing data
 
 select distinct(company)
@@ -136,6 +138,7 @@ set country = trim(trailing '.' from country)
 where country like 'united states%';
 
  select date from layoffs_stages2;
+
 
 #Review nulll and blank values
 
@@ -176,6 +179,7 @@ and t2.industry is not null;
 select *
 from layoffs_stages2
 where company like 'bally%';
+
 
 
 #Remove columns 
