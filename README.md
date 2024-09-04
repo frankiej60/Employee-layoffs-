@@ -24,5 +24,5 @@ Employee layoffs: The primary data used for this preprocessig is the layoffs.dat
 ---
 - Microsoft office
     - [Download here](https://www.microsoft.com/en-us/microsoft-365/microsoft-office)
-- MYSQL client-server software
+- MYSQL server
     - [Download here](https://MYSQL.com)
