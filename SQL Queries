@@ -3,12 +3,6 @@
 
 #After creating a schema and importing the raw data, create a duplicate datatset
 
--- Steps for cleaning --
-#1. Remove duplicates
-#2. Standardize the data (e.g remove spelling errors)
-#3. Review Null values or blank values 
-#4. Remove columns 
-
 select * from lay_offs;
 
 create table layoffs_stages
