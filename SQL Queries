@@ -108,17 +108,19 @@ update layoffs_stages2
 set country = trim(trailing '.' from country)
 where country like 'united states%';
 
- select date from layoffs_stages2;
-
-select date, 'date', 
-str_to_date('date','%m/%d/%Y')
-from layoffs_stages2;
+select * from layoffs_stages2;
 
 update layoffs_stages2
-set str_to_date('date','%m/%d/%Y');
+set date = str_to_date(date,'%m/%d/%Y');
 
-alter table layoffs_stages 
-modify column 'date' date;
+UPDATE layoffs_stages2
+SET date = STR_TO_DATE(date, '%m/%d/%Y');
+
+ALTER TABLE layoffs_stages2
+MODIFY COLUMN date DATE;
+
+select date
+from layoffs_stages2;
 
 #Review nulll and blank values
 
