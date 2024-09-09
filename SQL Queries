@@ -113,9 +113,6 @@ select * from layoffs_stages2;
 update layoffs_stages2
 set date = str_to_date(date,'%m/%d/%Y');
 
-UPDATE layoffs_stages2
-SET date = STR_TO_DATE(date, '%m/%d/%Y');
-
 ALTER TABLE layoffs_stages2
 MODIFY COLUMN date DATE;
 
